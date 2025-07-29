@@ -1,6 +1,6 @@
 # 📈 MT5 Prop Firm Trading Bot — Phase 1 Automation
 
-Robust, fully automated MetaTrader 5 trading bot optimized for prop firm challenges (e.g. The5ers Phase 1). Designed for disciplined execution, daily drawdown compliance, and transparent audit logging.
+Robust, fully automated MetaTrader 5 trading bot optimized for prop firm challenges (e.g. Prop Firm Phase 1). Designed for disciplined execution, daily drawdown compliance, and transparent audit logging.
 
 ## 🚀 Highlights
 
@@ -11,8 +11,9 @@ Robust, fully automated MetaTrader 5 trading bot optimized for prop firm challen
 
 ## ⚙️ Bot Structure
 
-- `live_trader_phase1.py` → Executes trades under strict Phase 1 risk rules  
-- `live_trader_highrr.py` → High risk-reward variant for alternative accounts  
+- `phase1_bot_main.py` → Executes trades under strict Phase 1 risk rules  
+- `phase1_high_RR.py` → High risk-reward variant for alternative accounts
+- `drawdown_guard.py` → Safety net with conditional shutdown to avoid liquidation
 - `symbol_reader.py` → Dynamically reads active instruments for trading  
 - `csv_cleaner.py` → Clears and resets trade logs daily to ensure auditability  
 - `.bat` scripts → Used to auto-run bots and log files via Windows scheduler

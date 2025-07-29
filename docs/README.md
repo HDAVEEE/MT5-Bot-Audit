@@ -23,4 +23,13 @@ This folder contains visual references, code snippets, and audit logs to support
 - Prop firm reviewers: Reference flowchart and CSV logs for audit visibility.
 - Developers: Fork the repo to extend logging, drawdown guards, or deployment logic.
 
+- ## 🔍 Strategy Expectancy Heatmap
+
+This visual reflects how the bot evaluates risk-reward expectancy across market conditions. Each cell represents average expected return per trade, segmented by volatility bins and signal confidence.
+
+![Expectancy Heatmap](docs/expectancy_heatmap.png)
+
+> 📌 *Why this matters*:  
+The bot prioritizes high-confidence, low-drawdown entries — calibrated dynamically to meet prop firm rules. This heatmap demonstrates the algorithm’s intelligent filtering across live market phases.
+
 *Last updated: July 29, 2025*
